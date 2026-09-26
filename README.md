@@ -53,9 +53,9 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 Below is a curated selection of open-source event brokers, event mesh engines, and cloud-native building blocks.
 
-> **Note on Star Count & Links:** Each repository star badge links directly to its official GitHub stargazers page.
+> **Note on Stars_Count & Links:** Each repository Stars_Badge links directly to its official GitHub stargazers page.
 
-| Rank | Repository | Stars ⭐️ | Language | Description & Primary Architectural Focus 🛠️ |
+| Rank | Repository | GitHub_Stars ⭐️ | Language | Description & Primary Architectural Focus 🛠️ |
 | :---: | :--- | :---: | :---: | :--- |
 | 1 | **[Apache Kafka](https://github.com/apache/kafka)** | [![Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Java / Scala | Distributed event streaming platform used as durable event backbone for event meshes. |
 | 2 | **[RabbitMQ](https://github.com/rabbitmq/rabbitmq-server)** | [![Stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers) | Erlang | Widely adopted open-source message broker supporting AMQP, MQTT, and STOMP protocols. |
