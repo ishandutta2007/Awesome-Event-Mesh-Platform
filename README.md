@@ -1,6 +1,17 @@
-# Awesome-Event-Mesh-Platform
+# Awesome Event Mesh Platform ⚡
 
-## Top Event Mesh Platforms Ecosystem
+[![Banner](./assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Event-Mesh-Platform)
+
+<p bottom="10px" align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Event-Mesh-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Event-Mesh-Platform?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Event-Mesh-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Event-Mesh-Platform?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Event-Mesh-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Event-Mesh-Platform?style=flat-square" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Event-Mesh-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Event-Mesh-Platform?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+## 🚀 Top Event Mesh Platforms Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 
@@ -8,204 +19,91 @@
 
 **Last updated: September 2026**
 
+---
 
+### 📌 Overview & Architecture
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Event Mesh**. An event mesh is a layer of interconnected event brokers that dynamically routes events across applications, clouds, data centers, and edge environments—supporting multiple protocols and enabling real-time, event-driven architectures at enterprise scale.
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Event Mesh**. An event mesh is an architecture layer composed of interconnected event brokers that dynamically routes events across applications, multi-cloud deployments, edge locations, and data centers. It supports multiple protocols (AMQP, MQTT, CloudEvents, Kafka protocol, REST, WebSockets) to enable real-time, event-driven integration at enterprise scale.
 
-
-
-**Examples** include Solace PubSub+, TIBCO FTL, IBM Event Streams, Red Hat AMQ Streams, Confluent, Azure Event Grid, Amazon EventBridge, TriggerMesh, Boomi Event Streams, and Ably (the category leaders).
-
-
-
-**Open-source emphasis**: True multi-protocol, multi-environment event mesh platforms are largely commercial (Solace is the reference design). Strong open foundations exist in **Apache EventMesh**, **TriggerMesh**, **Apache Kafka**, **Apache Pulsar**, **NATS**, and related cloud-native eventing projects. This section expands those options and remains realistic about the commercial gap for full mesh federation and multi-protocol brokers.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Solace PubSub+](https://solace.com/)**  
-
-  Leading event mesh and event broker platform—multi-protocol (MQTT, AMQP, JMS, REST, Kafka, WebSockets), hybrid/multi-cloud routing, high performance, and dynamic event mesh capabilities for large enterprises.
-
-
-
-- **[TIBCO FTL](https://www.tibco.com/)**  
-
-  High-performance messaging and event distribution technology from TIBCO for low-latency, real-time event-driven systems.
-
-
-
-- **[IBM Event Streams](https://www.ibm.com/)**  
-
-  Enterprise event streaming platform based on Apache Kafka, with IBM’s operational tooling, connectors, and hybrid-cloud support.
-
-
-
-- **[Red Hat AMQ Streams](https://www.redhat.com/)**  
-
-  Kafka-based event streaming on OpenShift/Kubernetes, part of Red Hat’s application and integration portfolio.
-
-
-
-- **[Confluent](https://www.confluent.io/)**  
-
-  Complete event streaming platform built on Apache Kafka—managed and self-managed options with governance, connectors, and stream processing that can form the backbone of event-driven meshes.
-
-
-
-- **[Azure Event Grid](https://azure.microsoft.com/)**  
-
-  Fully managed event routing service on Azure for reactive, event-driven architectures across Azure and external services.
-
-
-
-- **[Amazon EventBridge](https://aws.amazon.com/eventbridge/)**  
-
-  Serverless event bus that routes events between AWS services, SaaS applications, and custom applications with content-based filtering.
-
-
-
-- **[TriggerMesh](https://www.triggermesh.com/)**  
-
-  Cloud-native integration and eventing platform (with open-source roots) that unifies event sources and targets, often positioned as an EventBridge-style experience.
-
-
-
-- **[Boomi Event Streams](https://boomi.com/)**  
-
-  Event streaming and integration capabilities within the Boomi iPaaS for connecting applications and data in real time.
-
-
-
-- **[Ably and additional real-time / event platforms](https://ably.com/)**  
-
-  Managed real-time messaging and event distribution services used for pub/sub, presence, and multi-channel event delivery.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Apache EventMesh](https://github.com/apache/eventmesh)**  
-
-  Open-source serverless event middleware designed for distributed event-driven applications—CloudEvents-native, multi-runtime support, and positioned as next-generation event mesh infrastructure.
-
-
-
-- **[TriggerMesh](https://github.com/triggermesh/triggermesh)**  
-
-  Open-source cloud-native integration platform and AWS EventBridge alternative—Kubernetes-native event sources, targets, filtering, transformation, and routing via CloudEvents.
-
-
-
-- **[Apache Kafka](https://github.com/apache/kafka)**  
-
-  Foundational open-source event streaming platform frequently used as the durable backbone of custom event meshes and hybrid event-driven architectures.
-
-
-
-- **[Apache Pulsar](https://github.com/apache/pulsar)**  
-
-  Open-source messaging and streaming platform with multi-tenancy, geo-replication, and separated compute/storage—well-suited as a mesh building block.
-
-
-
-- **[NATS / NATS JetStream](https://github.com/nats-io/nats-server)**  
-
-  Lightweight, high-performance open-source messaging system with JetStream for persistence and streaming; popular in cloud-native and edge event meshes.
-
-
-
-- **[Knative Eventing](https://github.com/knative/eventing)**  
-
-  Open-source Kubernetes-native eventing building blocks for sources, brokers, triggers, and CloudEvents-based routing.
-
-
-
-- **[CloudEvents specification and SDKs](https://github.com/cloudevents)**  
-
-  Vendor-neutral open specification and libraries that enable portable event formats across mesh and broker technologies.
-
-
-
-- **[RabbitMQ and AMQP open brokers](https://github.com/rabbitmq/rabbitmq-server)**  
-
-  Mature open message broker still widely used for traditional messaging patterns within broader event-driven systems.
-
-
-
-- **[Apache ActiveMQ / Artemis](https://github.com/apache/activemq)**  
-
-  Open-source multi-protocol message brokers that support JMS, AMQP, MQTT, and related enterprise messaging use cases.
-
-
-
-- **[Documentation and event-mesh open playbooks](https://github.com/)**  
-
-  Guides for composing Kafka, Pulsar, NATS, EventMesh, and Knative into hybrid event-routing architectures.
-
-
-
-### Additional Strong Open-Source Options
-
-- Building a practical event mesh with **Apache EventMesh** or **TriggerMesh** on Kubernetes for CloudEvents-based routing.
-
-- Using **Kafka** or **Pulsar** as the durable core and layering protocol bridges (MQTT, AMQP, REST) for multi-protocol access.
-
-- Combining **NATS** for low-latency edge/cloud messaging with heavier streaming platforms for long-term retention.
-
-- Accepting that full multi-protocol federation, dynamic topic routing across hybrid environments, enterprise-grade HA, and managed mesh operations still favor commercial platforms (especially Solace PubSub+, plus Confluent, IBM Event Streams, cloud event buses, etc.).
-
-- Focusing open-source efforts on standards (CloudEvents), portability, and cost control for platform engineering teams.
-
-
-
-**Frameworks for building custom systems**: Choose a core broker (Kafka/Pulsar/NATS/EventMesh) → adopt CloudEvents for portability → deploy protocol bridges or gateways → federate across clusters/regions → add filtering, transformation, and observability. Suitable for cloud-native and hybrid architectures with strong engineering ownership. Large enterprises often adopt Solace or managed Kafka/Pulsar platforms for production event meshes.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Event mesh and event-driven systems are critical infrastructure. Misconfiguration can cause lost events, ordering issues, or cascading failures. Open-source stacks require skilled operations and careful capacity planning. This list is not architectural or operational advice.
-
-
+**Examples** include Solace PubSub+, TIBCO FTL, IBM Event Streams, Red Hat AMQ Streams, Confluent Cloud, Azure Event Grid, Amazon EventBridge, Boomi Event Streams, and Ably.
 
 ---
 
-**Made for integration architects, event-driven platform teams, and open-source messaging advocates.**
+## ☁️ SaaS/Hosted Platforms
 
-Let's keep events flowing across boundaries—reliably, portably, and as open as practical.
+> [!NOTE]
+> **Market Insights & Industry Dynamics:**  
+> The global Event Mesh and Event-Driven Architecture (EDA) software market is estimated at **$4.5 Billion to $5.2 Billion (2026)** with a compound annual growth rate (CAGR) of over **21%**. The sector is **moderately fragmented**: hyper-scaler cloud providers (AWS EventBridge, Azure Event Grid) dominate serverless cloud-native event buses, while enterprise multi-cloud event mesh capabilities are led by specialized vendors like Solace, Confluent, and IBM.
+
+| Rank | SaaS Platform | Provider / Company | Size (Revenue / Valuation) 📊 | Starting Price 💵 | Free Tier / Trial Limits 🎁 | Key Features & Highlights 🌟 |
+| :---: | :--- | :--- | :---: | :--- | :--- | :--- |
+| 1 | **[Amazon EventBridge](https://aws.amazon.com/eventbridge/)** | Amazon Web Services (AWS) | ~$128.7B Annual AWS Revenue / ~$2.5T Parent Market Cap | $1.00 per 1M custom events published | 14 Million free invocations/month (Scheduler) + 1M free events/mo | Serverless event bus routing events across AWS services, SaaS apps, and custom webhooks. |
+| 2 | **[Azure Event Grid](https://azure.microsoft.com/)** | Microsoft Azure | ~$101.9B Annual Azure Revenue / ~$3.6T Parent Market Cap | $0.60 per 1M operations (Basic Tier) | 100,000 operations free per month | Fully managed event routing service supporting pub/sub and MQTT brokering on Azure. |
+| 3 | **[IBM Event Streams](https://www.ibm.com/)** | IBM Corporation | ~$65.0B Annual Revenue / ~$200B+ Market Cap | $1,500/month per instance base | 30-day free trial on IBM Cloud | Enterprise-grade Kafka event streaming with connectors, schema governance, and hybrid support. |
+| 4 | **[Red Hat AMQ Streams](https://www.redhat.com/)** | Red Hat (IBM Subsidiary) | ~$6.5B Annual Revenue / Acquired for $34B | $2,500 per cluster/year (Subscription) | 60-day free Red Hat evaluation trial | Enterprise Apache Kafka deployed on Kubernetes/OpenShift with Strimzi operator governance. |
+| 5 | **[TIBCO FTL](https://www.tibco.com/)** | Cloud Software Group (TIBCO) | ~$1.5B Annual Revenue / ~$3.94B Enterprise Value | $5,000 per production core/year | 30-day evaluation license | Low-latency, ultra-high performance messaging and event distribution engine for enterprise systems. |
+| 6 | **[Confluent Cloud](https://www.confluent.io/)** | Confluent Inc. (Acquired by IBM) | ~$1.0B+ Annual Revenue / Acquired for $11B | $0.13/hour per Basic Kafka Cluster Unit (CKU) | $400 free credit valid for 30 days upon registration | Complete Kafka streaming platform with managed connectors, stream processing, and governance. |
+| 7 | **[Boomi Event Streams](https://boomi.com/)** | Boomi LP | ~$500M Annual Revenue / ~$1.6B Valuation | $2,000/month starter add-on package | Free Starter tier included with Boomi Integration account | Cloud-native event streaming integrated directly into the Boomi iPaaS ecosystem. |
+| 8 | **[Ably](https://ably.com/)** | Ably Real-time Ltd | ~$25M Annual Revenue / ~$200M Valuation | $29/month base (Standard Package) | Free Plan: 6M messages/mo, 200 channels, 200 connections | Serverless pub/sub, presence, and real-time event delivery infrastructure across edge networks. |
+| 9 | **[Solace PubSub+](https://solace.com/)** | Solace Corporation | ~$100M Annual Revenue / $1.0B Valuation | $1,200/month managed cloud broker pack | Standard Edition: Free software broker up to 1,000 concurrent connections | Industry benchmark for dynamic event mesh, multi-protocol (MQTT, AMQP, JMS, REST, Kafka) routing. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below is a curated selection of open-source event brokers, event mesh engines, and cloud-native building blocks.
+
+> **Note on Star Count & Links:** Each repository star badge links directly to its official GitHub stargazers page.
+
+| Rank | Repository | Stars ⭐️ | Language | Description & Primary Architectural Focus 🛠️ |
+| :---: | :--- | :---: | :---: | :--- |
+| 1 | **[Apache Kafka](https://github.com/apache/kafka)** | [![Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Java / Scala | Distributed event streaming platform used as durable event backbone for event meshes. |
+| 2 | **[RabbitMQ](https://github.com/rabbitmq/rabbitmq-server)** | [![Stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers) | Erlang | Widely adopted open-source message broker supporting AMQP, MQTT, and STOMP protocols. |
+| 3 | **[NATS Server](https://github.com/nats-io/nats-server)** | [![Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers) | Go | Cloud-native, ultra-fast messaging system with JetStream persistence for edge and multi-cloud meshes. |
+| 4 | **[Apache Pulsar](https://github.com/apache/pulsar)** | [![Stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers) | Java | Multi-tenant, cloud-native messaging and streaming broker with separated compute/storage. |
+| 5 | **[EMQX](https://github.com/emqx/emqx)** | [![Stars](https://img.shields.io/github/stars/emqx/emqx?style=social&color=white)](https://github.com/emqx/emqx/stargazers) | Erlang | Open-source enterprise MQTT broker for IoT, edge computing, and real-time event routing. |
+| 6 | **[Knative Eventing](https://github.com/knative/eventing)** | [![Stars](https://img.shields.io/github/stars/knative/eventing?style=social&color=white)](https://github.com/knative/eventing/stargazers) | Go | Kubernetes-native eventing constructs enabling composable CloudEvents-based event routing. |
+| 7 | **[Apache EventMesh](https://github.com/apache/eventmesh)** | [![Stars](https://img.shields.io/github/stars/apache/eventmesh?style=social&color=white)](https://github.com/apache/eventmesh/stargazers) | Java | Serverless event middleware designed specifically for distributed multi-protocol event routing. |
+| 8 | **[CloudEvents Spec](https://github.com/cloudevents/spec)** | [![Stars](https://img.shields.io/github/stars/cloudevents/spec?style=social&color=white)](https://github.com/cloudevents/spec/stargazers) | Markdown / Tech | CNCF specification for describing event data in a common, vendor-neutral format. |
+| 9 | **[Watermill](https://github.com/ThreeDotsLabs/watermill)** | [![Stars](https://img.shields.io/github/stars/ThreeDotsLabs/watermill?style=social&color=white)](https://github.com/ThreeDotsLabs/watermill/stargazers) | Go | Go library for efficiently building event-driven applications, pub/sub streams, and event meshes. |
+| 10 | **[TriggerMesh](https://github.com/triggermesh/triggermesh)** | [![Stars](https://img.shields.io/github/stars/triggermesh/triggermesh?style=social&color=white)](https://github.com/triggermesh/triggermesh/stargazers) | Go | Cloud-native integration platform and AWS EventBridge alternative built on Kubernetes & CloudEvents. |
+| 11 | **[Apache ActiveMQ Artemis](https://github.com/apache/activemq-artemis)** | [![Stars](https://img.shields.io/github/stars/apache/activemq-artemis?style=social&color=white)](https://github.com/apache/activemq-artemis/stargazers) | Java | High-performance non-blocking multi-protocol enterprise messaging broker (AMQP, JMS, MQTT). |
+
+---
+
+## 🛠️ How to Contribute 🤝
+
+1. 🍴 Fork the repository.
+2. 📝 Add or update entries in `README.md` following the tabular layout.
+3. 🔍 Ensure descriptions are factual, links are active, and appropriate categories are selected.
+4. 📤 Submit a Pull Request (PR) with a brief note explaining your changes.
+
+---
+
+## 📜 Disclaimer ⚠️
+
+- This repository is a **community-curated list** — it is not exhaustive and does not constitute endorsement.
+- Event mesh infrastructures are critical systems. Perform proper operational testing and security reviews before deploying in production environments.
+
+---
+
+## 💖 Support & Community ☕
+
+Thank you for exploring **Awesome-Event-Mesh-Platform**! If you find this project helpful, please consider:
+- ⭐️ **Starring** this repository to increase visibility.
+- 🔄 **Forking** & contributing new event mesh platforms or tools.
+- 📢 **Sharing** with your integration engineering colleagues and event-driven community.
+
+☕ **Sponsor & Support:**  
+If you'd like to support the ongoing maintenance of awesome developer resources, consider sponsoring via the button below:  
+👉 **[Sponsor on GitHub](https://github.com/sponsors/ishandutta2007)** 💖
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Event-Mesh-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Event-Mesh-Platform&type=date&legend=top-left)
+
+---
+
+**Made for integration architects, event-driven platform teams, and open-source messaging advocates.** ⚡
